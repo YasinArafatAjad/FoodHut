@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* =====| Common css |===== */
+*{
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance:none;
+    }
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+@media screen and (min-width:768px) {
+    .container{
+        width: 85%;
+        max-width: 980px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .container{
+        width: 85%;
+        max-width: 1180px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .container{
+        width: 85%;
+        max-width: 1350px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .container{
+        width: 80%;
+        max-width: 1920px;
+    }
+}
+@media screen and (min-width:2560px) {
+    .container{
+        width: 80%;
+    }
+}
